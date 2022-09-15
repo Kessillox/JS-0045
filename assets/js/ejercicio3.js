@@ -5,7 +5,7 @@ function convertirAF (celcius){
     return fahrenheit;
 }
 
-console.log(convertirAF(30))
+
 
 function convertirAK (celcius){
     let kelvin;
@@ -14,4 +14,7 @@ function convertirAK (celcius){
     return kelvin;
 }
 
-console.log(convertirAK(30))
+var celcius = parseInt(prompt("Ingresa grados celcius"));
+
+alert(`${celcius} grados celcius a fahrenheit es: ${convertirAF(celcius)} F°`);
+alert(`${celcius} grados celcius a kelvin es: ${convertirAK(celcius)} K°`);
