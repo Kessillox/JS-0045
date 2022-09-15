@@ -5,4 +5,13 @@ function convertirAF (celcius){
     return fahrenheit;
 }
 
-console.log(convertirAF)())
+console.log(convertirAF(30))
+
+function convertirAK (celcius){
+    let kelvin;
+    kelvin = celcius + 273.15;
+
+    return kelvin;
+}
+
+console.log(convertirAK(30))
