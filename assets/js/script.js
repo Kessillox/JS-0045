@@ -18,7 +18,7 @@ function menu() {
     switch(promptcito)
     {
         case 1:
-            window.location.href="desafio.drawio.pdf";
+            window.location.href="desafiojs.drawio.pdf";
             break;
         case 2:
             operaciones();
