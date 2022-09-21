@@ -9,7 +9,5 @@ function tiempo () {
     document.write(`${dias} dias equivalen a: ${anio} años, ${semana} semanas, ${dias1} dias.`);
 
 }
-
-tiempo();
     
     
