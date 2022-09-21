@@ -6,7 +6,7 @@ function tiempo () {
     modulo = dias%365;
     var semana = Math.floor(modulo/7);
     var dias1 = modulo%7;
-    document.write(`${dias} dias equivalen a: ${anio} años, ${semana} semanas, ${dias1} dias.`);
+    alert(`${dias} dias equivalen a: ${anio} años, ${semana} semanas, ${dias1} dias.`);
 
 }
     
